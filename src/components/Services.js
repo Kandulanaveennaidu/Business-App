@@ -28,12 +28,13 @@ const Services = () => {
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
         <div className="relative w-full flex-1">
           <Image
-            src={"/videobanner.png"}
+            src={"/portifilo.png"}
             width={500}
             height={500}
             alt="video banner"
             className="object-cover w-full"
           />
+          {/* <h1 className="object-cover w-full" >portfolio</h1> */}
           <button className="w-32 h-32 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <Link href={"https://professional-portfolio-6i2o.vercel.app/"} target="_blank">
               <span className="playButton duration-700 w-full h-full bg-rose-500 rounded-full block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
@@ -58,7 +59,7 @@ const Services = () => {
           <ServiceCard
             imgSrc={"/features/2.svg"}
             title="Secure Contents"
-            desc="Unwavering commitment to safeguarding your content with top-notch, cutting-edge security measures and protocols."
+            desc="Ensuring content security with robust, state-of-the-art protection measures."
           />
         </div>
       </div>

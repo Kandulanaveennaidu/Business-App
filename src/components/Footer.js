@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <Link href={"/"} className="text-3xl">
-              <span className="text-rose-600">N</span>aveen
+              <span className="text-rose-600">S</span>erviceSprint Hub
             </Link>
             <p className="max-w-xs mt-4 text-sm">
               Building innovative software solutions. Delivering engineer-crafted products for your needs.
